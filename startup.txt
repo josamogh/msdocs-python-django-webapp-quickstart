@@ -1,3 +1,2 @@
-gunicorn --bind=0.0.0.0:8081 --workers=4 msdocs-python-django-webapp-quickstart
-.wsgi:application
+gunicorn --bind=0.0.0.0:8081 --workers=4 hello_azure.wsgi:application
 
